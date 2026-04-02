@@ -1,23 +1,3 @@
-
-
-
-
-
-
-OK, Rob - here ya' go.  As I understand it, this is only one revision level
-lower than the "current" version of the virus -- but I have no idea what the
-differences are between the two.  Sigh.  TASM can be used to assemble the
-code, then you can replace (using DEBUG) the first 3 bytes of the linked
-.COM file to 9H 65 00 to jump to the start of the virus code.  I have been
-unable to cause the resulting executable to infect file on floppy until the
-virus is run on a hard drive first.  So, to begin infections (after
-assembling/linking/editing the executable):  1) Run the modified executable,
-2) Run a program on your hard drive.  From there it will spread to files on
-the hard drive and the floppy.  FluShot+ makes a good monitor for watching
-this virus at work.  Have fun!
- 
-Thanks for your help, and thanks for a great weekend.
- 
 ;************************
 ;*                      *
 ;*      E D D I E       *
